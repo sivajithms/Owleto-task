@@ -7,7 +7,7 @@ git clone https://github.com/sivajithms/Owleto-task.git
 ```
 Navigate to the project directory: 
 ```bash
-cd crud-project
+cd Owleto-task
 ```
 Install dependencies:
 ```bash
