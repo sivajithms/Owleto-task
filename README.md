@@ -71,6 +71,3 @@ Request Body:
 ```
 
 Response: Success message or error details.
-
-Contributing
-Contributions are welcome! Feel free to submit pull requests.
