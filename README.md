@@ -3,7 +3,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/sivajithms/crud-project.git
+git clone https://github.com/sivajithms/Owleto-task.git
 ```
 Navigate to the project directory: 
 ```bash
