@@ -28,9 +28,11 @@ Update a student: PUT `/students/`
 Delete a student: DELETE `/students`
 
 API Endpoints
-
+```bash
+http://localhost:3000/students/
+```
 Create a Student
-URL: `/students/`
+URL: `http://localhost:3000/students/`
 Method: `POST`
 Request Body:
 ```bash
@@ -43,12 +45,12 @@ Request Body:
 Response: Success message or error details.
 
 Read All Students
-URL: `/students`
+URL: `http://localhost:3000/students/`
 Method: `GET`
 Response: List of student records or error details.
 
 Update a Student
-URL: `/students/`
+URL: `http://localhost:3000/students/`
 Method: `put`
 Request Body:
 ```bash
@@ -61,7 +63,7 @@ Request Body:
 Response: Success message or error details.
 
 Delete a Student
-URL: `/students/`
+URL: `http://localhost:3000/students/`
 Method: `DELETE`
 Request Body:
 ```bash
