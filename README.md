@@ -4,17 +4,22 @@
 
 ```bash
 git clone https://github.com/sivajithms/crud-project.git
-
+```
 Navigate to the project directory: 
+```bash
 cd crud-project
-
+```
 Install dependencies:
+```bash
 npm i
+```
 
 Usage
 
 Start the application:
+```bash
 node index.js
+```
 
 Access the CRUD endpoints:
 Create a new student: POST `/students/`
@@ -28,11 +33,13 @@ Create a Student
 URL: `/students/`
 Method: `POST`
 Request Body:
+```bash
 {
   "rno": 101,
   "name": "John Doe",
   "mark": 85.5
 }
+```
 Response: Success message or error details.
 
 Read All Students
@@ -44,20 +51,24 @@ Update a Student
 URL: `/students/`
 Method: `put`
 Request Body:
+```bash
 {
   "rno": 101,
   "name": "Updated Name",
   "mark": 90
 }
+```
 Response: Success message or error details.
 
 Delete a Student
 URL: `/students/`
 Method: `DELETE`
 Request Body:
+```bash
 {
   "rno": 101
 }
+```
 
 Response: Success message or error details.
 
