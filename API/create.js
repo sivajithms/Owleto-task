@@ -5,6 +5,10 @@ const db = require('../db');
 Router.post('/', (req, res) => {
     const { rno, name, mark } = req.body;
 
+    if (!rno || !name || !mark) {
+        return res.status(400).json({ message: 'Provide rno, name, and mark' });
+    }
+
     const sqlCheck = `SELECT * FROM students WHERE rno = ?`;
     const sqlInsert = `INSERT INTO students(rno, name, mark) VALUES (?, ?, ?)`;
 

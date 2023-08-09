@@ -4,6 +4,10 @@ const db = require('../db');
 
 Router.put('/', (req, res) => {
     const { rno, name, mark } = req.body;
+    
+    if (!rno || !name || !mark) {
+        return res.status(400).json({ message: 'Provide rno, name, and mark' });
+    }
 
     const sqlCheck = `SELECT * FROM students WHERE rno = ?`;
     const sqlInsert = `UPDATE students SET name=?,mark=? WHERE rno=?`
